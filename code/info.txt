@@ -1,0 +1,59 @@
+Explain the importance of semantic elements in web development according to accessibility guidelines.
+Provide examples of at least two semantic HTML elements and clarify how they enhance accessibility for users with disabilities.
+
+Exempel på semantiska html element:
+<nav>
+<footer>
+<section>
+<button>
+
+- Semantiska element underlättar för till exempel synskadade att kunna navigera sig enklare på en hemsida. Man använder sig ofta
+utav en skärläsare som läser upp det som står på hemsidan, har man byggt en hemsida med semantiska element vet denna skärmläsaren
+att menyn är en meny genom att man har använt <nav>. Detta gör att man kan använda hemsidan mycket enklare även om man är synskadad.
+
+
+
+Describe the significance of color contrast in web design concerning accessibility. 
+How does adhering to color contrast guidelines benefit users with visual impairments, and what are the recommended contrast ratios as 
+per WCAG standards?
+
+- Färgen har stor betydelse när man designar hemsidor. För en synnedsatt människa blir det väldigt svårt att läsa texter om texten har
+väldigt lik bakgrundsfärgen. Har man en stark kontrast är det enklare för alla att läsa texten. En färgblind person kan ha svårt att
+läsa till exempel en röd text på en grön bakgrund även ifall kontrasten är hög. 
+Enligt WCAG standarden ska det vara 4.5:1 för brödtext och 3:1 för större texter som till exempel titlar.
+
+
+
+Discuss the role of alternative text (alt text) for images in accordance with accessibility guidelines. 
+Why is it crucial to include descriptive alt text, and how does this contribute to making web content more accessible? 
+Provide examples to illustrate your explanation.
+
+
+- När man använder en skärmläsare så kan inte denna beskriva en bild om den inte har en alt-text. En bild på en hund kan till exmepel 
+vara "Bild på en hundvalp" eller liknande, en bild på en restaurang kan ha "Människor som äter inuti en restaurang". 
+Har man problem att komma in på hemsidan så kommer bilderna att visa sin alt-text istället för själva bilden, 
+så det är bra att ha en alt-text som då kan beskriva vad bilden ska föreställa istället. 
+
+
+
+Explain the purpose of landmarks in creating accessible web content. 
+How do landmarks aid in navigation for users of assistive technologies, 
+and can you provide examples of commonly used landmark elements in HTML?
+
+
+- Landmärken används för att strukturera en hemsida. Man gör detta för att förbättra och underlätta navigation för skärmläsare.
+
+Exempel på vanliga landmärken:  
+<main>
+<header>
+<section>
+<aside>
+
+Labels är viktiga när man använder till exempel form-element. Att ha radio-knappar utan beksrivande text (label) till gör att det blir otroligt
+svårt att fylla i rätt information. Två radioknappar där en betyder att man får nyhetsbrev och en inte, utan label till gör att man
+helt enkelt får chansa på vad den radioknappen innebär och att man får nyhetsbrev även fast man inte vill ha det. 
+Det kan vara bra att man gör autocomplete möjligt så att en besökare behöver fylla i så lite text som möjligt själv till exempel att 
+den fyller i hela ens namn, adress och telefonnummer, då vet man exakt vad hemsidan är ute efter och informationen blir rätt. 
+Samt man kan göra inputfält "required" så att man MÅSTE fylla i vissa uppgifter för att till exemepel ett köp ska gå igenom. 
+Att vara tydlig när det blir fel med besökarens inmatning i inputfälten är också viktigt, till exemepel att just det fältet som är
+fel ifyllt blir rött eller liknande. 
